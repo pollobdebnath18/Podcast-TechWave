@@ -1,0 +1,63 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-color1 {
+  background-color: #1a0b2e;
+}
+body {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 140px;
+  padding: 15px 0;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+  color: white;
+}
+.nav-head {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+.btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px;
+  border-radius: 10000px;
+  background: linear-gradient(to right, #f9d7d7, #fb09b4);
+  color: white;
+  border: none;
+}
+.hamburger-menu {
+  display: none;
+  /* margin-left: 120px; */
+}
+@media screen and (max-width: 576px) {
+  nav {
+    margin: 0 30px;
+  }
+  .btn,
+  .nav-list {
+    display: none;
+  }
+  .hamburger-menu {
+    display: inline;
+  }
+}
