@@ -39,7 +39,7 @@ nav {
 .btn {
   font-size: 16px;
   font-weight: 600;
-  padding: 16px;
+  padding: 10px 16px;
   border-radius: 10000px;
   background: linear-gradient(to right, #f9d7d7, #fb09b4);
   color: white;
@@ -49,6 +49,85 @@ nav {
   display: none;
   /* margin-left: 120px; */
 }
+
+/*---------------------- Header section---------------------------  */
+
+.banner-parent img {
+  max-width: 100%;
+  position: relative;
+  
+}
+.banner-parent{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-child-1 {
+  position: absolute;
+  top: 160px;
+  left: 495px;
+}
+.banner-child-2 {
+  position: absolute;
+  top: 220px;
+  left: 586px;
+}
+.banner-child1 {
+  width: 275px;
+}
+.banner-child2 {
+  width: 90px;
+}
+.banner-new {
+  position: absolute;
+  background-color: #00ff88;
+  color: #1a0b2e;
+  padding: 14px;
+  border-radius: 1000px;
+  font-size: 16px;
+  font-weight: 600;
+  left: 700px;
+  top: 165px;
+}
+.banner-div {
+  position: absolute;
+  text-align: center;
+  bottom: -30px;
+  left: 375px;
+}
+.banner-head {
+  font-size: 4rem;
+  /* font-size: 60px; */
+  font-weight: 800;
+  color: #ffffff;
+}
+.banner-des {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 20px;
+}
+.banner-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.banner-btn button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.banner-2nd-btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px;
+  border-radius: 10000px;
+  /* background: linear-gradient(to right, #f9d7d7, #fb09b4); */
+  color: #00ff88;
+  border: 2px solid #00ff88;
+  background-color: transparent;
+}
+/* -------------Responsive Design for small device ------------ */
 @media screen and (max-width: 576px) {
   nav {
     margin: 0 30px;
@@ -59,5 +138,25 @@ nav {
   }
   .hamburger-menu {
     display: inline;
+  }
+  /* Header section */
+  .banner-parent {
+    position: relative;
+  }
+  .banner-child-1 {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+  }
+  .banner-child-2 {
+    position: absolute;
+    top: 22px;
+    left: 56px;
+  }
+  .banner-child1 {
+    width: 80px;
+  }
+  .banner-child2 {
+    width: 45px;
   }
 }
