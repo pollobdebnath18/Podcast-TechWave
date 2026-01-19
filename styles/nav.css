@@ -55,9 +55,8 @@ nav {
 .banner-parent img {
   max-width: 100%;
   position: relative;
-  
 }
-.banner-parent{
+.banner-parent {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -95,17 +94,18 @@ nav {
   left: 375px;
 }
 .banner-head {
-  font-size: 4rem;
+  font-size: 3.8rem;
   /* font-size: 60px; */
   font-weight: 800;
   color: #ffffff;
 }
 .banner-des {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   color: #ffffff;
   padding-top: 7px;
   padding-bottom: 20px;
+  opacity: 0.8;
 }
 .banner-btn {
   display: flex;
@@ -142,21 +142,85 @@ nav {
   /* Header section */
   .banner-parent {
     position: relative;
+    padding-bottom: 160px;
   }
   .banner-child-1 {
     position: absolute;
-    top: 10px;
-    left: 45px;
+    top: 30px;
+    left: 154px;
   }
   .banner-child-2 {
     position: absolute;
-    top: 22px;
-    left: 56px;
+    top: 50px;
+    left: 182px;
   }
   .banner-child1 {
     width: 80px;
   }
   .banner-child2 {
-    width: 45px;
+    width: 22px;
+  }
+  .banner-new {
+    position: absolute;
+    background-color: #00ff88;
+    color: #1a0b2e;
+    padding: 5px;
+    border-radius: 1000px;
+    font-size: 8px;
+    font-weight: 600;
+    left: 212px;
+    top: 25px;
+  }
+  .banner-div {
+    position: absolute;
+    text-align: center;
+    padding-bottom: 100px;
+    top: 125px;
+    left: 25px;
+  }
+  .banner-head {
+    font-size: 1.6rem;
+    /* font-size: 60px; */
+    font-weight: 800;
+    color: #ffffff;
+  }
+  .banner-des {
+    font-size: 10px;
+    /* max-width: 250px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 20px;
+  }
+  .banner-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .banner-btn button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .banner-2nd-btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 10000px;
+    /* background: linear-gradient(to right, #f9d7d7, #fb09b4); */
+    color: #00ff88;
+    border: 2px solid #00ff88;
+    background-color: transparent;
+  }
+  .btn {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 12px;
+    border-radius: 10000px;
+    background: linear-gradient(to right, #f9d7d7, #fb09b4);
+    color: white;
+    border: none;
   }
 }
