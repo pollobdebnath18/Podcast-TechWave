@@ -221,8 +221,10 @@
 .footer-wave {
   position: absolute;
   text-align: center;
+  /* left: 33%;
+  bottom: 100px; */
   left: 33%;
-  bottom: 100px;
+  bottom: 83px;
 }
 .footer-head {
   font-size: 60px;
@@ -235,6 +237,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10px;
 }
 .footer-flex div {
   display: flex;
@@ -252,7 +255,7 @@
   color: #ffffff;
   opacity: 0.6;
   padding-top: 10px;
-  /* padding-bottom: 10px; */
+  /* padding-bottom: ; */
 }
 .footer-divider {
   border: none;
@@ -468,7 +471,7 @@
     /* left: 34%;
     bottom: 15px; */
     left: 23%;
-    bottom: 0;
+    bottom: -10px;
   }
 
   .footer-flex {
@@ -479,10 +482,11 @@
 
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 4px; 
+    column-gap: 1px;
+    row-gap: 5px;
     justify-items: center; 
-    align-items: center; 
-    text-align: center;
+    align-items: center;
+    text-align: center; 
   }
   .footer-flex div {
     display: flex;
