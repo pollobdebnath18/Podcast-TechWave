@@ -47,10 +47,17 @@ nav {
   background: linear-gradient(to right, #f9d7d7, #fb09b4);
   color: white;
   border: none;
+  transition: all 0.5 ease;
+  animation: slideRight 1.5s linear;
 }
 .hamburger-menu {
   display: none;
   /* margin-left: 120px; */
+}
+.btn:hover {
+  background: #0ef;
+  color: black;
+  box-shadow: 0 0 20px #0ef;
 }
 
 /*---------------------- Header section---------------------------  */
@@ -129,7 +136,35 @@ nav {
   color: #00ff88;
   border: 2px solid #00ff88;
   background-color: transparent;
+  animation: slideLeft 1.5s linear;
 }
+.banner-2nd-btn:hover {
+  background-color: #0ef;
+  color: black;
+  box-shadow: 0 0 20px #0ef;
+}
+/* ----------------------Animation ----------------------------------- */
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 /* ------------------------Responsive Design for small device ------------------------- */
 @media screen and (max-width: 576px) {
   nav {
